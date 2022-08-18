@@ -138,7 +138,7 @@ export default class Carrinho extends Component {
             >
               <div className="checkout-btn-container">
                 <Link
-                  to="/checkout"
+                  to="/front-end-online-store/checkout"
                 >
                   <button
                     data-testid="checkout-products"

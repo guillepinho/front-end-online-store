@@ -1,7 +1,6 @@
 /* eslint-disable max-lines */
 /* eslint-disable react/jsx-max-depth */
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { FaCcVisa, FaBarcode, FaCcMastercard, FaCreditCard } from 'react-icons/fa';
 

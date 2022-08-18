@@ -25,7 +25,7 @@ class Content extends Component {
         <div className="product-card">
           <Link
             to={ {
-              pathname: `/product/${product.id}`,
+              pathname: `/front-end-online-store/product/${product.id}`,
               state: {
                 thisProd: this.findThisProd(product.id),
               },

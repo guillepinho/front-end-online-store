@@ -13,7 +13,7 @@ class Header extends Component {
 
     return (
       <div className="header">
-        <Link to="/">
+        <Link to="/front-end-online-store/">
           <div className="logo">
             <FaStore />
             <span className="logo-title">
@@ -35,7 +35,7 @@ class Header extends Component {
               onKeyDown={ searchRequestEnter }
             />
           </label>
-          <Link to="/">
+          <Link to="/front-end-online-store/">
             <button
               type="submit"
               data-testid="query-button"
@@ -47,7 +47,7 @@ class Header extends Component {
           </Link>
         </div>
         <div className="cart-button">
-          <Link data-testid="shopping-cart-button" to="/carrinho">
+          <Link data-testid="shopping-cart-button" to="/front-end-online-store/carrinho">
             <div
               data-testid="shopping-cart-size"
               className="cart-quantity"
