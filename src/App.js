@@ -205,7 +205,7 @@ class App extends React.Component {
           { redirect && <Redirect to="/" /> }
 
           <Switch>
-            <Route exact path="/">
+            <Route exact path="front-end-online-store/">
               <Navbar
                 setFilterCategory={ this.setFilterCategory }
               />
@@ -219,7 +219,7 @@ class App extends React.Component {
             </Route>
             <Route
               exact
-              path="/carrinho"
+              path="front-end-online-store/carrinho"
               render={ (props) => (<Carrinho
                 { ...props }
                 cartList={ cartList }
@@ -231,7 +231,7 @@ class App extends React.Component {
             />
             <Route
               exact
-              path="/product/:id"
+              path="front-end-online-store/product/:id"
               render={ (props) => (<Product
                 { ...props }
                 addToCartDetails={ this.addToCartDetails }
@@ -239,7 +239,7 @@ class App extends React.Component {
             />
             <Route
               exact
-              path="/checkout"
+              path="front-end-online-store/checkout"
               render={ (props) => (
                 <Checkout
                   { ...props }
